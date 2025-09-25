@@ -47,8 +47,8 @@ git clone https://github.com/arbody17/assignment-1.git
 cd assignment-1
 ```
 
-2. Open the Project
-Option A — Open Directly
+### 2. Open the Project
+#### Option A — Open Directly
 
 Navigate to the project folder.
 
@@ -67,7 +67,7 @@ Right-click index.html → Open with Live Server.
 The project will run at http://127.0.0.1:5500
  (or a similar local address).
 
-3. Explore the Features
+### 3. Explore the Features
 
 Toggle Dark/Light Mode (saved automatically).
 
