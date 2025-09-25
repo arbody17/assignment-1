@@ -56,11 +56,4 @@ Through this project, I strengthened my **HTML, CSS, and JavaScript** skills, pr
 
 ---
 
-## License  
-This project was built as part of an **academic assignment**.  
-You are free to explore and adapt the code for learning purposes.  
-
----
-
 👨‍💻 **Author:** Abdulrahman  
-📧 Contact: [Add your email or LinkedIn here]  
