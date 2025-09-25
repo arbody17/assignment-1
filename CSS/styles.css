@@ -1,42 +1,53 @@
-body {
-  font-family: Arial, sans-serif;
-  margin: 0;
-  padding: 0;
-}
+/* General */
+body { font-family: 'Poppins', sans-serif; margin: 0; scroll-behavior: smooth; }
+h1, h2, h3 { margin: 0.5rem 0; }
+a { text-decoration: none; }
 
-header {
-  background: #2c3e50;
-  padding: 1rem;
+/* Navbar */
+.navbar {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 1rem 2rem; background: #2c3e50; color: white; position: sticky; top: 0;
 }
+.nav-links { list-style: none; display: flex; gap: 1.5rem; }
+.nav-links a { color: white; transition: 0.3s; }
+.nav-links a:hover { color: #f1c40f; }
+.logo span { color: #f1c40f; }
 
-header nav ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 2rem;
+/* Hero */
+.hero {
+  min-height: 100vh; display: flex; align-items: center; justify-content: center;
+  background: linear-gradient(to right, #1e3c72, #2a5298); color: white; padding: 2rem;
 }
+.hero-content { display: flex; gap: 2rem; flex-wrap: wrap; align-items: center; }
+.profile-img { width: 200px; border-radius: 50%; border: 4px solid #f1c40f; }
+.hero-text h1 span { color: #f1c40f; }
+.tagline { font-size: 1.2rem; margin-top: 0.5rem; }
+.btn {
+  background: #f1c40f; color: black; padding: 0.8rem 1.5rem;
+  border-radius: 6px; font-weight: bold; transition: 0.3s;
+}
+.btn:hover { background: #e1b200; }
+.btn-sm { background: #34495e; color: white; padding: 0.5rem 1rem; border-radius: 4px; }
+.btn-sm:hover { background: #2c3e50; }
 
-header nav ul li a {
-  color: white;
-  text-decoration: none;
+/* Projects */
+.projects { padding: 3rem 2rem; text-align: center; }
+.project-grid {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 2rem;
 }
+.card { background: white; border-radius: 12px; overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15); transition: 0.3s;
+}
+.card:hover { transform: translateY(-8px); }
+.card img { width: 100%; height: 200px; object-fit: cover; }
+.card-content { padding: 1rem; }
 
-section {
-  padding: 2rem;
-}
+/* Contact */
+.contact { padding: 3rem 2rem; background: #f9f9f9; text-align: center; }
+form { display: flex; flex-direction: column; max-width: 400px; margin: auto; }
+form input, form textarea { margin: 0.5rem 0; padding: 0.8rem; border-radius: 6px; border: 1px solid #ccc; }
+form button { margin-top: 1rem; }
 
-.project {
-  display: inline-block;
-  margin: 1rem;
-  text-align: center;
-}
-
-form {
-  display: flex;
-  flex-direction: column;
-  max-width: 400px;
-}
-form input, form textarea, form button {
-  margin: 0.5rem 0;
-  padding: 0.5rem;
-}
+/* Footer */
+footer { background: #2c3e50; color: white; text-align: center; padding: 1rem; }
+.socials a { margin: 0 10px; color: #f1c40f; }

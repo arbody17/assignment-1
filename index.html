@@ -1,61 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Protfolio</title>
-    <link rel="stylesheet" href="CSS/styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Abdulrahman | Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+  <!-- Navbar -->
   <header>
-    <nav>
-      <ul>
-        <li><a href="#about">About Me</a></li>
+    <nav class="navbar">
+      <h2 class="logo">A<span>H</span></h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
+        <li><button id="theme-toggle">🌙</button></li>
       </ul>
     </nav>
   </header>
 
-  <!-- About Me -->
-  <section id="about">
-    <h1>Hello, I’m Abdulrahman 👋</h1>
-    <p>I’m a software undergraduate student @KFUPM, passionate about engineering, technology, and research. This portfolio showcases some of my work and projects.</p>
-    <img src="assets/images/profile.jpg" alt="Profile picture" width="200">
+  <!-- Hero -->
+  <section id="about" class="hero">
+    <div class="hero-content">
+      <div class="profile-wrapper">
+        <img src="assets/images/profile.jpg" alt="Profile" class="profile-img">
+      </div>
+      <div class="hero-text">
+        <h1>Hello, I’m <span>Abdulrahman</span> 👋</h1>
+        <p class="tagline">A passionate <span id="typewriter"></span></p>
+        <a href="#projects" class="btn">Explore My Work</a>
+      </div>
+    </div>
   </section>
 
   <!-- Projects -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="project">
-      <img src="assets/images/canada.jpeg" alt="Project 1" width="250">
-      <h3></h3>
-      <p>A short description of your first project goes here.</p>
-    </div>
-    <div class="project">
-      <img src="assets/images/canadaResearch.jpeg" alt="Project 2" width="250">
-      <h3>Project Two</h3>
-      <p>A short description of your second project goes here.</p>
+  <section id="projects" class="projects">
+    <h2>My Projects</h2>
+    <div class="project-grid">
+      <div class="card">
+        <img src="assets/images/canada.jpeg" alt="Project 1">
+        <div class="card-content">
+          <h3>Project One</h3>
+          <p>Short, clear project description with key achievements.</p>
+          <a href="#" class="btn-sm">View Project</a>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/images/canadaResearch.jpeg" alt="Project 2">
+        <div class="card-content">
+          <h3>Project Two</h3>
+          <p>Another impactful project with focus on results and skills.</p>
+          <a href="#" class="btn-sm">View Project</a>
+        </div>
+      </div>
     </div>
   </section>
 
   <!-- Contact -->
-  <section id="contact">
+  <section id="contact" class="contact">
     <h2>Contact Me</h2>
     <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Send</button>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
     </form>
   </section>
-    <script src="js/script.js"></script>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Abdulrahman | Built with ❤️</p>
+    <div class="socials">
+      <a href="https://github.com" target="_blank">GitHub</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="mailto:youremail@kfupm.edu.sa">Email</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
