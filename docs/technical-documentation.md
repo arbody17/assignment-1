@@ -45,7 +45,7 @@ Open a terminal (or Git Bash on Windows) and run:
 ```bash
 git clone https://github.com/arbody17/assignment-1.git
 cd assignment-1
-
+```
 
 2. Open the Project
 Option A — Open Directly
