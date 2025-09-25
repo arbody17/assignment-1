@@ -47,7 +47,7 @@ For more details, see:
 ---
 
 ## 🚀 Live Demo  
-👉 [View Portfolio Online]() *(link will be added once deployed)*  
+👉 [View Portfolio Online]() *(This will be added soon)*  
 
 ---
 
