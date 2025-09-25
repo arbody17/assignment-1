@@ -7,8 +7,55 @@
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
-    <div id="myHeader">
-<img src="assets/images/profile.jpg" alt="img">
+    <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- About Me -->
+  <section id="about">
+    <h1>Hello, I’m Abdulrahman 👋</h1>
+    <p>I’m a software undergraduate student @KFUPM, passionate about engineering, technology, and research. This portfolio showcases some of my work and projects.</p>
+    <img src="assets/images/profile.jpg" alt="Profile picture" width="200">
+  </section>
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <img src="assets/images/canada.jpeg" alt="Project 1" width="250">
+      <h3></h3>
+      <p>A short description of your first project goes here.</p>
     </div>
+    <div class="project">
+      <img src="assets/images/canadaResearch.jpeg" alt="Project 2" width="250">
+      <h3>Project Two</h3>
+      <p>A short description of your second project goes here.</p>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send</button>
+    </form>
+  </section>
+    <script src="js/script.js"></script>
 </body>
 </html>
