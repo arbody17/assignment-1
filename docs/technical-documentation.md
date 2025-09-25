@@ -16,18 +16,22 @@ It showcases my projects, experience, and contact details in a modern, responsiv
 ---
 
 ## 📂 Folder Structure
+```
 assignment-1/
+├── README.md
 ├── index.html
 ├── css/
-│ └── styles.css
+│   └── styles.css
 ├── js/
-│ └── script.js
+│   └── script.js
 ├── assets/
-│ └── images/
-└── docs/
-├── ai-usage-report.md
-└── technical-documentation.md
+│   └── images/
+├── docs/
+│   ├── ai-usage-report.md
+│   └── technical-documentation.md
+└── .gitignore
 
+```
 
 ---
 
